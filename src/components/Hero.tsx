@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
             <div className={`w-full h-full rounded-full border-4 ${
               powerMode ? 'border-yellow-400 shadow-lg shadow-yellow-400/50' : 'border-pink-400'
             } bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center overflow-hidden`}>
-              <div className="text-8xl">🦸‍♂️</div>
+              <div className="text-8xl"><img src="logo.jpg" alt="🦹"></div>
             </div>
             {powerMode && (
               <div className="absolute -top-2 -right-2 animate-bounce">
