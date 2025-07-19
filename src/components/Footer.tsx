@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
             <div className="hover:animate-bounce cursor-pointer" title="Powered by Coffee">☕</div>
             <div className="hover:animate-bounce cursor-pointer" title="JavaScript Magic">⚡</div>
             <div className="hover:animate-bounce cursor-pointer" title="React Power">⚛️</div>
-            <div className="hover:animate-bounce cursor-pointer" title="Anime Inspired">🎌</div>
+            <div className="hover:animate-bounce cursor-pointer" title="Anime Inspired">🇮🇳</div>
           </div>
 
           {/* Creator Info */}
