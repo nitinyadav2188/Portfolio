@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
             <div className={`w-full h-full rounded-full border-4 ${
               powerMode ? 'border-yellow-400 shadow-lg shadow-yellow-400/50' : 'border-pink-400'
             } bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center overflow-hidden`}>
-              <div className="text-8xl"><img src="logo.jpg" alt="🦹"></div>
+              <div className="text-8xl"> <img src="logo.jpg" alt="🦹"> </div>
             </div>
             {powerMode && (
               <div className="absolute -top-2 -right-2 animate-bounce">
@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
               : 'bg-pink-600 text-white border-pink-400 hover:bg-pink-500'
           }`}>
             <Code className="w-5 h-5 group-hover:animate-spin" />
-            <span className="font-bold comic-text">View Projects</span>
+            <span className="font-bold comic-text">View Projects....</span>
           </button>
           
           <button className="group flex items-center space-x-2 px-8 py-4 rounded-full border-2 border-purple-400 text-white hover:bg-purple-600 transition-all duration-300">
