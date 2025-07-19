@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
 
   const socialLinks = [
     { name: 'GitHub', icon: Github, url: 'https://github.com/nitinyadav2188', color: 'hover:text-gray-400' },
-    { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com/in/nitinyadav3', color: 'hover:text-blue-400' },
+    { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/nitin-yadav-681850299', color: 'hover:text-blue-400' },
     { name: 'Twitter', icon: Twitter, url: 'https://twitter.com/nitinyadav2188', color: 'hover:text-blue-300' },
     // { name: 'Instagram', icon: Instagram, url: 'https://instagram.com/nitinyadav3', color: 'hover:text-pink-400' },
   ];
