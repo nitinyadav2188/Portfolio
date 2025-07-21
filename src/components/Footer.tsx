@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
           {/* Easter Egg */}
           <div className="mt-4">
             <button
-              onClick={() => alert('🎉 You found the easter egg! Thanks for exploring! 🇮🇳')}
+              onClick={() => alert('🎉 You found the easter egg! Thanks for exploring! 🇮🇳 ')}
               className="text-xs text-gray-500 hover:text-pink-400 transition-colors duration-300"
             >
               Click me for a surprise! 🥚
